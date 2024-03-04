@@ -1,0 +1,10 @@
+body
+{
+    /*Initialisation*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*Apparence*/
+    background-color: red;
+    color: pink;
+}
