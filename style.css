@@ -15,7 +15,7 @@ body
 }
 *, ::before, ::after
 {
-    /*Ajustement des proportions */
+    /*Ajustement des proportions*/
     box-sizing: border-box;
 }
 .loaderContainer
@@ -31,7 +31,7 @@ body
     transform: translate(-50%,-50%);
     /*Apparence*/
     background: rgb(0, 0, 17);
-    color: pink;
+    color: aqua;
     /*Animations*/
 }
 .loader
@@ -62,13 +62,13 @@ body
 }
 .fonduOut
 {
-    /*Faire fondre*/
+    /*Faire fondre un élément de la page*/
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
 }
 .hidden
 {
-    /*Cacher*/
+    /*Faire cacher un élément de la page*/
     display: none;
 }
 .fond
@@ -84,7 +84,7 @@ body
     transform: translate(-50%,-50%);
     /*Apparence*/
     background: radial-gradient(rgb(0, 6, 88),rgb(8, 0, 43),rgb(0, 0, 0));
-    color: pink;
+    color: aqua;
     /*Animations*/
 }
 .titre
@@ -129,7 +129,7 @@ body
     z-index: 0;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 49%;
     transform: translate(-50%,-50%);
     /*Apparence*/
     border-radius: 5vh;
@@ -153,19 +153,19 @@ body
     z-index: 0;
     position: absolute;
     left: 20%;
-    top: 50%;
+    top: 49%;
     transform: translate(-50%,-50%);
     /*Apparence*/
     border-radius: 5vh;
-    background: radial-gradient(rgb(233, 176, 255),rgb(212, 103, 255),rgb(181, 0, 236));
+    background: radial-gradient(rgb(255, 251, 0),rgb(253, 135, 1),rgb(255, 0, 0));
     color: pink;
     /*Animations*/
 }
 .drum1:hover
 {
     cursor: pointer;
-    background: radial-gradient(rgb(253, 181, 255),rgb(237, 145, 255),rgb(226, 129, 255));
-    box-shadow: 0vh 0vh 10vh rgb(252, 158, 255);
+    background: radial-gradient(rgb(255, 251, 0),rgb(255, 196, 0),rgb(255, 124, 1));
+    box-shadow: 0vh 0vh 10vh rgb(255, 123, 0);
 }
 /*Drum 2*/
 .drum2
@@ -177,19 +177,19 @@ body
     z-index: 0;
     position: absolute;
     left: 80%;
-    top: 50%;
+    top: 49%;
     transform: translate(-50%,-50%);
     /*Apparence*/
     border-radius: 5vh;
-    background: radial-gradient(rgb(0, 247, 255),rgb(50, 156, 255),rgb(0, 26, 255));
+    background: radial-gradient(rgb(255, 251, 0),rgb(253, 135, 1),rgb(255, 0, 0));
     color: pink;
     /*Animations*/
 }
 .drum2:hover
 {
     cursor: pointer;
-    background: radial-gradient(rgb(0, 255, 242),rgb(50, 207, 255),rgb(0, 119, 255));
-    box-shadow: 0vh 0vh 10vh rgb(0, 17, 255);
+    background: radial-gradient(rgb(255, 251, 0),rgb(255, 196, 0),rgb(255, 124, 1));
+    box-shadow: 0vh 0vh 10vh rgb(255, 123, 0);
 }
 /*Drum 3*/
 .drum3
@@ -201,22 +201,70 @@ body
     z-index: 0;
     position: absolute;
     left: 50%;
-    top: 23%;
+    top: 21%;
     transform: translate(-50%,-50%);
     /*Apparence*/
     border-radius: 5vh;
     background: radial-gradient(rgb(233, 176, 255),rgb(212, 103, 255),rgb(181, 0, 236));
     color: pink;
     /*Animations*/
- }
- .drum3:hover
- {
+}
+.drum3:hover
+{
     cursor: pointer;
     background: radial-gradient(rgb(253, 181, 255),rgb(237, 145, 255),rgb(226, 129, 255));
     box-shadow: 0vh 0vh 10vh rgb(252, 158, 255);
- }
+}
 /*Drum 4*/
 .drum4
+{
+    /*Proportions*/
+    width: 25vw;
+    height: 20vh;
+    /*Positionnement*/
+    z-index: 0;
+    position: absolute;
+    left: 20%;
+    top: 21%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    border-radius: 5vh;
+    background: radial-gradient(rgb(233, 176, 255),rgb(212, 103, 255),rgb(181, 0, 236));
+    color: pink;
+    /*Animations*/
+}
+.drum4:hover
+{
+    cursor: pointer;
+    background: radial-gradient(rgb(253, 181, 255),rgb(237, 145, 255),rgb(226, 129, 255));
+    box-shadow: 0vh 0vh 10vh rgb(252, 158, 255);
+}
+/*Drum 5*/
+.drum5
+{
+    /*Proportions*/
+    width: 25vw;
+    height: 20vh;
+    /*Positionnement*/
+    z-index: 0;
+    position: absolute;
+    left: 80%;
+    top: 21%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    border-radius: 5vh;
+    background: radial-gradient(rgb(233, 176, 255),rgb(212, 103, 255),rgb(181, 0, 236));
+    color: pink;
+    /*Animations*/
+}
+.drum5:hover
+{
+    cursor: pointer;
+    background: radial-gradient(rgb(253, 181, 255),rgb(237, 145, 255),rgb(226, 129, 255));
+    box-shadow: 0vh 0vh 10vh rgb(252, 158, 255);
+}
+/*Drum 6*/
+.drum6
 {
     /*Proportions*/
     width: 25vw;
@@ -233,59 +281,11 @@ body
     color: pink;
     /*Animations*/
 }
-.drum4:hover
+.drum6:hover
 {
     cursor: pointer;
     background: radial-gradient(rgb(0, 255, 242),rgb(50, 207, 255),rgb(0, 119, 255));
     box-shadow: 0vh 0vh 10vh rgb(0, 17, 255);
-}
-/*Drum 5*/
-.drum5
-{
-    /*Proportions*/
-    width: 25vw;
-    height: 20vh;
-    /*Positionnement*/
-    z-index: 0;
-    position: absolute;
-    left: 20%;
-    top: 23%;
-    transform: translate(-50%,-50%);
-    /*Apparence*/
-    border-radius: 5vh;
-    background: radial-gradient(rgb(255, 251, 0),rgb(253, 135, 1),rgb(255, 0, 0));
-    color: pink;
-    /*Animations*/
-}
-.drum5:hover
-{
-    cursor: pointer;
-    background: radial-gradient(rgb(255, 251, 0),rgb(255, 196, 0),rgb(255, 124, 1));
-    box-shadow: 0vh 0vh 10vh rgb(255, 123, 0);
-}
-/*Drum 6*/
-.drum6
-{
-    /*Proportions*/
-    width: 25vw;
-    height: 20vh;
-    /*Positionnement*/
-    z-index: 0;
-    position: absolute;
-    left: 80%;
-    top: 77%;
-    transform: translate(-50%,-50%);
-    /*Apparence*/
-    border-radius: 5vh;
-    background: radial-gradient(rgb(255, 251, 0),rgb(253, 135, 1),rgb(255, 0, 0));
-    color: pink;
-    /*Animations*/
-}
-.drum6:hover
-{
-    cursor: pointer;
-    background: radial-gradient(rgb(255, 251, 0),rgb(255, 196, 0),rgb(255, 124, 1));
-    box-shadow: 0vh 0vh 10vh rgb(255, 123, 0);
 }
 /*Drum 7*/
 .drum7
@@ -296,20 +296,20 @@ body
     /*Positionnement*/
     z-index: 0;
     position: absolute;
-    left: 80%;
-    top: 23%;
+    left: 20%;
+    top: 77%;
     transform: translate(-50%,-50%);
     /*Apparence*/
     border-radius: 5vh;
-    background: radial-gradient(rgb(233, 176, 255),rgb(212, 103, 255),rgb(181, 0, 236));
+    background: radial-gradient(rgb(0, 247, 255),rgb(50, 156, 255),rgb(0, 26, 255));
     color: pink;
     /*Animations*/
 }
 .drum7:hover
 {
     cursor: pointer;
-    background: radial-gradient(rgb(253, 181, 255),rgb(237, 145, 255),rgb(226, 129, 255));
-    box-shadow: 0vh 0vh 10vh rgb(252, 158, 255);
+    background: radial-gradient(rgb(0, 255, 242),rgb(50, 207, 255),rgb(0, 119, 255));
+    box-shadow: 0vh 0vh 10vh rgb(0, 17, 255);
 }
 /*Drum 8*/
 .drum8
@@ -320,7 +320,7 @@ body
     /*Positionnement*/
     z-index: 0;
     position: absolute;
-    left: 20%;
+    left: 80%;
     top: 77%;
     transform: translate(-50%,-50%);
     /*Apparence*/
