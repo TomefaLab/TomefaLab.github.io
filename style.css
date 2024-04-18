@@ -84,7 +84,7 @@ body
     top: 50%;
     transform: translate(-50%,-50%);
     /*Apparence*/
-    background: rgb(248, 248, 248);
+    background: rgb(248, 171, 3);
     color: aqua;
     /*Animations*/
 }
