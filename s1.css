@@ -1,0 +1,74 @@
+body
+{
+    /*Initialisation*/
+    margin: 0;
+    padding: 0;
+    /*Apparence*/
+    background-color: rgb(255, 254, 254);
+    color: pink;
+}
+
+.ban1
+{
+    /*Proportions*/
+    width: 100vw;
+    height: 50vh;
+    /*Positionnement*/
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    background: linear-gradient(90deg,rgb(10, 0, 37),rgb(0, 17, 63));
+    color: pink;
+    /*Animations*/
+}
+img
+{
+    /*Proportions*/
+    width: 13vh;
+    height: 13vh;
+    /*Positionnement*/
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%,0%);
+    /*Apparence*/
+    /* background: linear-gradient(90deg,rgb(10, 0, 37),rgb(0, 34, 128)); */
+    color: pink;
+    /*Animations*/
+}
+.titre
+{
+    /*Proportions*/
+    font-size: 3vh;
+    font-weight: normal;
+    /*Positionnement*/
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    /* background: linear-gradient(90deg,rgb(10, 0, 37),rgb(0, 17, 63)); */
+    color: rgb(255, 255, 255);
+    /*Animations*/
+}
+.ban2
+{
+    /*Proportions*/
+    width: 100vw;
+    height: 55vh;
+    /*Positionnement*/
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    background: linear-gradient(90deg,rgb(176, 147, 255),rgb(149, 93, 255));
+    color: pink;
+    /*Animations*/
+}
