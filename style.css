@@ -70,7 +70,7 @@ body
 {
     /*Proportions*/
     width: 100vw;
-    height: 100vh;
+    height: 10000px;
     /*Positionnement*/
     z-index: 0;
     position: absolute;
@@ -87,22 +87,22 @@ body
     width: 100vw;
     height: 50vh;
     /*Positionnement*/
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     left: 50%;
     top: 0%;
     transform: translate(-50%,-50%);
     /*Apparence*/
-    background: linear-gradient(90deg,rgb(3, 0, 39)0%,rgb(6, 0, 58)50%,rgb(7, 0, 112)100%);
+    background: linear-gradient(90deg,rgb(3, 0, 39)0%,rgb(3, 0, 39)50%,rgb(3, 0, 39)100%);
     /*Animations*/
 }
 .banniere2
 {
     /*Proportions*/
     width: 100vw;
-    height: 2vh;
+    height: 3vh;
     /*Positionnement*/
-    z-index: 2;
+    z-index: 1;
     position: absolute;
     left: 50%;
     top: 25%;

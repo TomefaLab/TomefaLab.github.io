@@ -8,6 +8,6 @@ window.addEventListener("load",(e)=>{
     setTimeout((e) => {
         loaderContainer.classList.add("hidden");
         //Activer le défilement !
-        loaderContainer.style.overflow = "none";
+        body.style.overflow = "none";
     }, 400);
 });
