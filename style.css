@@ -3,9 +3,9 @@ body
     /*Initialisation*/
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     /*Apparence*/
-    background-color: rgb(144, 166, 238);
+    background-color: rgb(255, 255, 255);
     color: pink;
 }
 *, ::before, ::after
@@ -20,12 +20,13 @@ body
     height: 100vh;
     /*Positionnement*/
     z-index: 9999;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     /*Apparence*/
-    background: linear-gradient(180deg,rgb(0, 0, 17)0%,rgb(0, 0, 17)50%,rgb(0, 0, 17)100%);
+    background: rgb(0, 0, 17);
+    color: pink;
     /*Animations*/
 }
 .loader
@@ -35,12 +36,13 @@ body
     height: 10vh;
     /*Positionnement*/
     z-index: 9999;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     /*Apparence*/
-    /* background: linear-gradient(180deg,red,green,blue); */
+    /* background: rgb(0, 0, 17);
+    color: pink; */
     /*Animations*/
     animation: rotateLoader 2s linear infinite;
 }
@@ -57,20 +59,20 @@ body
 }
 .fonduOut
 {
-    /*Faire fondre un élément html*/
+    /*Faire fondre un élément html !*/
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
 }
 .hidden
 {
-    /*Masquer un élément html*/
+    /*Masquer un élément html !*/
     display: none;
 }
 .fond
 {
     /*Proportions*/
     width: 100vw;
-    height: 10000px;
+    height: 100vh;
     /*Positionnement*/
     z-index: 0;
     position: absolute;
@@ -78,37 +80,40 @@ body
     top: 50%;
     transform: translate(-50%,-50%);
     /*Apparence*/
-    background: linear-gradient(180deg,rgb(255, 255, 255)0%,rgb(255, 255, 255)50%,rgb(255, 255, 255)100%);
+    background: rgb(255, 255, 255);
+    color: pink;
     /*Animations*/
 }
 .banniere1
 {
     /*Proportions*/
     width: 100vw;
-    height: 50vh;
+    height: 25vh;
     /*Positionnement*/
-    z-index: 2;
+    z-index: 1;
     position: absolute;
-    left: 50%;
+    left: 0%;
     top: 0%;
-    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
     /*Apparence*/
-    background: linear-gradient(90deg,rgb(3, 0, 39)0%,rgb(3, 0, 39)50%,rgb(3, 0, 39)100%);
+    background: rgb(0, 5, 53);
+    color: pink;
     /*Animations*/
 }
 .banniere2
 {
     /*Proportions*/
     width: 100vw;
-    height: 3vh;
+    height: 2vh;
     /*Positionnement*/
     z-index: 1;
     position: absolute;
-    left: 50%;
+    left: 0%;
     top: 25%;
-    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
     /*Apparence*/
-    background: linear-gradient(90deg,rgb(168, 160, 252)0%,rgb(172, 163, 255)50%,rgb(156, 149, 255)100%);
+    background: rgb(153, 115, 255);
+    color: pink;
     /*Animations*/
 }
 .icon
@@ -123,39 +128,73 @@ body
     top: 10%;
     transform: translate(-50%,-50%);
     /*Apparence*/
-    /* background: linear-gradient(90deg,rgb(168, 160, 252)0%,rgb(172, 163, 255)50%,rgb(156, 149, 255)100%); */
+    /* background: rgb(153, 115, 255); */
+    color: pink;
     /*Animations*/
 }
 .titre
 {
     /*Proportions*/
     font-size: 3vh;
-    font-weight: normal;
     /*Positionnement*/
     z-index: 2;
     position: absolute;
     left: 50%;
-    top: 18.5%;
+    top: 19%;
     transform: translate(-50%,-50%);
     /*Apparence*/
-    color: white;
-    /* background: linear-gradient(90deg,rgb(168, 160, 252)0%,rgb(172, 163, 255)50%,rgb(156, 149, 255)100%); */
+    /* background: rgb(153, 115, 255); */
+    color: rgb(241, 236, 255);
+    font-weight: normal;
     /*Animations*/
 }
 .message
 {
     /*Proportions*/
     font-size: 2vh;
-    font-weight: normal;
-    font-style: italic;
     /*Positionnement*/
     z-index: 2;
     position: absolute;
     left: 50%;
-    top: 27%;
+    top: 28%;
     transform: translate(-50%,-50%);
     /*Apparence*/
-    color: rgb(0, 4, 63);
-    /* background: linear-gradient(90deg,rgb(168, 160, 252)0%,rgb(172, 163, 255)50%,rgb(156, 149, 255)100%); */
+    /* background: rgb(153, 115, 255); */
+    color: rgb(17, 0, 63);
+    font-weight: normal;
+    font-style: italic;
+    /*Animations*/
+}
+.oeuvre1
+{
+    /*Proportions*/
+    width: 70vw;
+    /* height: 13vh; */
+    /*Positionnement*/
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    /* background: rgb(153, 115, 255); */
+    color: pink;
+    /*Animations*/
+}
+.fin
+{
+    /*Proportions*/
+    font-size: 2vh;
+    /*Positionnement*/
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 140%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    /* background: rgb(153, 115, 255); */
+    color: rgb(17, 0, 63);
+    font-weight: normal;
+    font-style: italic;
     /*Animations*/
 }
