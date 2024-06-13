@@ -173,9 +173,9 @@ body
     /*Positionnement*/
     z-index: 2;
     position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translate(-50%,-50%);
+    left: 15%;
+    top: 40%;
+    /* transform: translate(-50%,-50%); */
     /*Apparence*/
     /* background: rgb(153, 115, 255); */
     color: pink;
@@ -184,13 +184,13 @@ body
 .fin
 {
     /*Proportions*/
-    font-size: 2vh;
+    font-size: 1.5vh;
     /*Positionnement*/
     z-index: 2;
     position: absolute;
     left: 50%;
-    top: 140%;
-    transform: translate(-50%,-50%);
+    top: 95%;
+    transform: translate(-50%,0%);
     /*Apparence*/
     /* background: rgb(153, 115, 255); */
     color: rgb(17, 0, 63);
