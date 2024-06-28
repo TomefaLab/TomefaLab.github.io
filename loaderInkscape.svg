@@ -35,10 +35,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient834"
        id="linearGradient836"
-       x1="4.9999995"
-       y1="150"
-       x2="295"
-       y2="150"
+       x1="4.9999962"
+       y1="149.9998"
+       x2="295.0004"
+       y2="149.9998"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -49,8 +49,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="62.854154"
-     inkscape:cy="186.35252"
+     inkscape:cx="150.74985"
+     inkscape:cy="144.22979"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -77,9 +77,9 @@
      id="layer1">
     <circle
        id="path23"
-       cx="150"
-       cy="150"
-       style="fill:none;stroke:url(#linearGradient836);stroke-width:9.99960423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       r="140.0002" />
+       cx="150.0002"
+       cy="149.9998"
+       style="fill:none;stroke:url(#linearGradient836);stroke-width:10.917;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="139.5417" />
   </g>
 </svg>
