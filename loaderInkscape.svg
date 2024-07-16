@@ -35,9 +35,9 @@
        inkscape:collect="always"
        xlink:href="#linearGradient834"
        id="linearGradient836"
-       x1="4.9999995"
+       x1="4.9999948"
        y1="150"
-       x2="295"
+       x2="295.00001"
        y2="150"
        gradientUnits="userSpaceOnUse" />
   </defs>
@@ -49,8 +49,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="149.04844"
-     inkscape:cy="168.46469"
+     inkscape:cx="95.08064"
+     inkscape:cy="139.61361"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -79,7 +79,7 @@
        id="path23"
        cx="150"
        cy="150"
-       style="fill:none;stroke:url(#linearGradient836);stroke-width:9.99701023;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       r="140.0015" />
+       style="fill:none;stroke:url(#linearGradient836);stroke-width:9.66666698;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="140.16667" />
   </g>
 </svg>

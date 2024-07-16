@@ -18,39 +18,39 @@
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="iconInkscape.svg">
   <defs
-     id="defs838">
+     id="defs10">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient1400">
+       id="linearGradient834">
       <stop
          style="stop-color:#00ffff;stop-opacity:1"
          offset="0"
-         id="stop1396" />
+         id="stop830" />
       <stop
-         style="stop-color:#0000ff;stop-opacity:1"
+         style="stop-color:#9600ff;stop-opacity:1"
          offset="1"
-         id="stop1398" />
+         id="stop832" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1400"
-       id="linearGradient1402"
-       x1="16.162441"
-       y1="471.71573"
-       x2="452.54834"
-       y2="38.360287"
+       xlink:href="#linearGradient834"
+       id="linearGradient836"
+       x1="14.142136"
+       y1="465.65482"
+       x2="464.6702"
+       y2="31.289219"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#000011"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="121.73227"
-     inkscape:cy="280.0242"
+     inkscape:cy="213.49559"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,7 +60,7 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
-     id="metadata841">
+     id="metadata13">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -76,31 +76,31 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:url(#linearGradient1402);stroke:none;stroke-width:10.85277748;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-       id="rect851"
+       id="rect23"
        width="490"
        height="490"
        x="5"
        y="5"
-       ry="142.9928"
-       rx="139.20482" />
+       style="fill:url(#linearGradient836);stroke:none;stroke-width:1.04898846;fill-opacity:1"
+       rx="130"
+       ry="130" />
     <path
        sodipodi:type="star"
-       style="fill:#ffffff;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path1404"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path838"
        sodipodi:sides="6"
-       sodipodi:cx="212.13203"
-       sodipodi:cy="179.78165"
-       sodipodi:r1="138.44987"
-       sodipodi:r2="69.224937"
-       sodipodi:arg1="0.95648401"
-       sodipodi:arg2="1.4800828"
+       sodipodi:cx="223.24371"
+       sodipodi:cy="268.67508"
+       sodipodi:r1="97.8806"
+       sodipodi:r2="48.9403"
+       sodipodi:arg1="0.80729247"
+       sodipodi:arg2="1.3308912"
        inkscape:flatsided="true"
        inkscape:rounded="0.62"
        inkscape:randomized="0"
-       d="m 291.93409,292.91873 c -70.145,49.47728 -59.95955,48.55077 -137.88062,12.54206 C 76.132397,269.45208 82.027495,277.80969 74.251417,192.32371 66.47534,106.83772 62.184989,116.12183 132.32998,66.64456 c 70.145,-49.477272 59.95955,-48.550771 137.88062,-12.542061 77.92107,36.008711 72.02597,27.651105 79.80205,113.137091 7.77608,85.48598 12.06643,76.20187 -58.07856,125.67914 z"
-       inkscape:transform-center-x="-1.8801864"
-       inkscape:transform-center-y="-13.749811"
-       transform="matrix(1.0684235,0.10016262,-0.09802517,1.0917206,36.586394,35.525114)" />
+       d="m 290.92393,339.38576 c -43.84062,41.96173 -36.81711,40.24367 -95.07735,23.25745 -58.26024,-16.98623 -53.2606,-11.76272 -67.68022,-70.71068 -14.41962,-58.94796 -16.44349,-52.00639 27.39713,-93.96813 43.84062,-41.96173 36.81712,-40.24367 95.07736,-23.25745 58.26023,16.98622 53.2606,11.76272 67.68022,70.71068 14.41961,58.94796 16.44348,52.00639 -27.39714,93.96813 z"
+       inkscape:transform-center-x="3.8695743"
+       inkscape:transform-center-y="-8.933591"
+       transform="matrix(1.4004835,0.34162412,-0.34162412,1.4004835,23.787016,-194.7796)" />
   </g>
 </svg>
