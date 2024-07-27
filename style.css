@@ -1,0 +1,175 @@
+body
+{
+    /*Initialisation*/
+    margin: 0;
+    padding: 0;
+    /*Apparence*/
+    background-color: black;
+    color: white;
+}
+*, ::before, ::after
+{
+    /*Ajustement des proortions*/
+    box-sizing: border-box;
+}
+.loaderContainer
+{
+    /*Proportions*/
+    width: 100vw;
+    height: 100vh;
+    /*Positionnement*/
+    z-index: 9999;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    background: linear-gradient(90deg,rgb(0, 0, 17),rgb(0, 0, 17),rgb(0, 0, 17));
+    /*Animations*/
+}
+.loader
+{
+    /*Proportions*/
+    width: 10vh;
+    height: 10vh;
+    /*Positionnement*/
+    z-index: 9999;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /*Apparence*/
+    /* background: linear-gradient(90deg,rgb(0, 0, 17),rgb(0, 0, 17),rgb(0, 0, 17)); */
+    /*Animations*/
+    animation: rotateLoader 2s linear infinite;
+}
+@keyframes rotateLoader
+{
+    0%
+    {
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%
+    {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+.fonduOut
+{
+    /*Faire fondre un élément html !*/
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+.hidden
+{
+    /*Masquer ou cacher un élement html !*/
+    display: none;
+}
+.fond
+{
+    /*Proportions*/
+    width: 100vw;
+    height: 100vh;
+    /*Positionnement*/
+    z-index: 0;
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    /* transform: translate(-50%,-50%); */
+    /*Apparence*/
+    background: linear-gradient(90deg,rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 255, 255));
+    /*Animations*/
+}
+.banniere1
+{
+    /*Proportions*/
+    width: 100vw;
+    height: 25vh;
+    /*Positionnement*/
+    z-index: 1;
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    /* transform: translate(-50%,-50%); */
+    /*Apparence*/
+    background: linear-gradient(90deg,rgb(0, 0, 17),rgb(0, 0, 34),rgb(0, 0, 68));
+    /*Animations*/
+}
+.banniere2
+{
+    /*Proportions*/
+    width: 100vw;
+    height: 2vh;
+    /*Positionnement*/
+    z-index: 2;
+    position: absolute;
+    left: 0vw;
+    top: 25vh;
+    /* transform: translate(-50%,-50%); */
+    /*Apparence*/
+    background: linear-gradient(90deg,rgb(154, 154, 255),rgb(150, 150, 255),rgb(164, 164, 255));
+    /*Animations*/
+}
+.icon
+{
+    /*Proportions*/
+    width: 12.5vh;
+    height: 12.5vh;
+    /*Positionnement*/
+    z-index: 3;
+    position: absolute;
+    left: 50vw;
+    top: 4vh;
+    transform: translate(-50%,0%);
+    /*Apparence*/
+    /* background: linear-gradient(90deg,rgb(154, 154, 255),rgb(150, 150, 255),rgb(164, 164, 255)); */
+    /*Animations*/
+}
+.titre
+{
+    /*Proportions*/
+    font-size: 3vh;
+    /*Positionnement*/
+    z-index: 4;
+    position: absolute;
+    left: 50vw;
+    top: 17vh;
+    transform: translate(-50%,0%);
+    /*Apparence*/
+    font-weight: normal;
+    /* background: linear-gradient(90deg,rgb(154, 154, 255),rgb(150, 150, 255),rgb(164, 164, 255)); */
+    /*Animations*/
+}
+.message
+{
+    /*Proportions*/
+    font-size: 2vh;
+    /*Positionnement*/
+    z-index: 5;
+    position: absolute;
+    left: 50vw;
+    top: 27vh;
+    transform: translate(-50%,0%);
+    /*Apparence*/
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    /* background: linear-gradient(90deg,rgb(154, 154, 255),rgb(150, 150, 255),rgb(164, 164, 255)); */
+    /*Animations*/
+}
+
+.oeuvre1
+{
+    /*Proportions*/
+    width: 50vw;
+    /*Positionnement*/
+    z-index: 6;
+    position: absolute;
+    left: 50vw;
+    top: 40vh;
+    transform: translate(-50%,0%);
+    /*Apparence*/
+    
+    /* background: linear-gradient(90deg,rgb(154, 154, 255),rgb(150, 150, 255),rgb(164, 164, 255)); */
+    /*Animations*/
+}
